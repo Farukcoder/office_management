@@ -15,6 +15,7 @@ if (isset($_POST['login'])) {
   if ($row == 1) {
     $_SESSION['success'] = true;
     $_SESSION['is_logged'] = true;
+    header('location:deshboard.php');
   } else {
     $_SESSION['error'] = true;
   }
@@ -71,7 +72,7 @@ if (isset($_POST['login'])) {
       <div class="card-body login-card-body">
         <p class="login-box-msg"></p>
 
-        <form id="validate_form" action="" method="post" data-parsley-validate="">
+        <form id="validate_form" action="" method="post">
           <div class="input-group mb-3">
             <input type="text" class="form-control" placeholder="username" name="username" required>
             <div class="input-group-append">

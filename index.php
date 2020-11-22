@@ -1,5 +1,5 @@
 <?php
-	header('location:admin');
+	header('location:admin/deshboard.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">

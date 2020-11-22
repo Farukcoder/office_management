@@ -1,7 +1,7 @@
- <!-- Main Sidebar Container -->
+<!-- Main Sidebar Container -->
  <aside class="main-sidebar sidebar-dark-primary elevation-4">
      <!-- Brand Logo -->
-     <a href="home/" class="brand-link">
+     <a href="javascript:void(0)" class="brand-link">
          &nbsp;&nbsp;&nbsp; <i class="fa fa-desktop" style="opacity: .8"></i>
          <span class="brand-text font-weight-light"><b>Innovation &lt;</b><span style="color:#0069D9;font-size: 22px;font-weight: bolder;">IT</span><b>&gt;</b></span>
      </a>
@@ -14,7 +14,7 @@
                  <img src="../image/icon/user.png" class="img-circle elevation-2" alt="User Image">
              </div>
              <div class="info">
-                 <a href="#" class="d-block">Super_admin</a>
+                 <a href="javascript:void(0)" class="d-block">Super_admin</a>
              </div>
          </div>
 
@@ -33,29 +33,116 @@
                  </li>
                  <li class="nav-item">
                      <a href="#" class="nav-link">
-                         <i class="nav-icon fas fa-chart-pie"></i>
+                         <i class="nav-icon fas fa-chart-line"></i>
                          <p>
-                             Charts
+                             HR Module
                              <i class="right fas fa-angle-left"></i>
                          </p>
                      </a>
                      <ul class="nav nav-treeview" style="display: none;">
                          <li class="nav-item">
-                             <a href="chartjs.html" class="nav-link active">
-                                 <i class="far fa-circle nav-icon"></i>
-                                 <p>ChartJS</p>
+                             <a href="javascript:void(0)" class="nav-link active">
+                                 <i class="far fa-dot-circle nav-icon"></i>
+                                 <p>Employee</p>
                              </a>
                          </li>
                          <li class="nav-item">
-                             <a href="flot.html" class="nav-link">
-                                 <i class="far fa-circle nav-icon"></i>
-                                 <p>Flot</p>
+                             <a href="javascript:void(0)" class="nav-link active">
+                                 <i class="far fa-dot-circle nav-icon"></i>
+                                 <p>HR Setting</p>
                              </a>
                          </li>
                          <li class="nav-item">
-                             <a href="inline.html" class="nav-link">
-                                 <i class="far fa-circle nav-icon"></i>
-                                 <p>Inline</p>
+                             <a href="javascript:void(0)" class="nav-link">
+                                 <i class="far fa-dot-circle nav-icon"></i>
+                                 <p>Salary Generate</p>
+                             </a>
+                         </li>
+                         <li class="nav-item">
+                             <a href="javascript:void(0)" class="nav-link">
+                                 <i class="far fa-dot-circle nav-icon"></i>
+                                 <p>Salary Report</p>
+                             </a>
+                         </li>
+                         <li class="nav-item">
+                             <a href="javascript:void(0)" class="nav-link">
+                                 <i class="far fa-dot-circle nav-icon"></i>
+                                 <p>Bank Payslip</p>
+                             </a>
+                         </li>
+                         <li class="nav-item">
+                             <a href="javascript:void(0)" class="nav-link">
+                                 <i class="far fa-dot-circle nav-icon"></i>
+                                 <p>Leave Managment</p>
+                             </a>
+                         </li>
+                         <li class="nav-item">
+                             <a href="javascript:void(0)" class="nav-link">
+                                 <i class="far fa-dot-circle nav-icon"></i>
+                                 <p>calender</p>
+                             </a>
+                         </li>
+                     </ul>
+                 </li>
+                 <li class="nav-item">
+                     <a href="#" class="nav-link">
+                         <i class="nav-icon fa fa-calculator"></i>
+                         <p>
+                             Attendance
+                             <i class="right fas fa-angle-left"></i>
+                         </p>
+                     </a>
+                     <ul class="nav nav-treeview" style="display: none;">
+                         <li class="nav-item">
+                             <a href="javascript:void(0)" class="nav-link active">
+                                 <i class="far fa-dot-circle nav-icon"></i>
+                                 <p>Employee Attendance</p>
+                             </a>
+                         </li>
+                     </ul>
+                 </li>
+                 <li class="nav-item">
+                     <a href="#" class="nav-link">
+                         <i class="nav-icon fa fa-cogs"></i>
+                         <p>
+                             Setting
+                             <i class="right fas fa-angle-left"></i>
+                         </p>
+                     </a>
+                     <ul class="nav nav-treeview" style="display: none;">
+                         <li class="nav-item">
+                             <a href="javascript:void(0)" class="nav-link active">
+                                 <i class="far fa-dot-circle nav-icon"></i>
+                                 <p>Department</p>
+                             </a>
+                         </li>
+                         <li class="nav-item">
+                             <a href="javascript:void(0)" class="nav-link active">
+                                 <i class="far fa-dot-circle nav-icon"></i>
+                                 <p>Designation</p>
+                             </a>
+                         </li>
+                     </ul>
+                 </li>
+                 <li class="nav-item">
+                     <a href="#" class="nav-link">
+                         <i class="nav-icon fa fa-home"></i>
+                         <p>
+                             Company Setting
+                             <i class="right fas fa-angle-left"></i>
+                         </p>
+                     </a>
+                     <ul class="nav nav-treeview" style="display: none;">
+                         <li class="nav-item">
+                             <a href="javascript:void(0)" class="nav-link active">
+                                 <i class="far fa-dot-circle nav-icon"></i>
+                                 <p>Profile</p>
+                             </a>
+                         </li>
+                         <li class="nav-item">
+                             <a href="javascript:void(0)" class="nav-link active">
+                                 <i class="far fa-dot-circle nav-icon"></i>
+                                 <p>Branch</p>
                              </a>
                          </li>
                      </ul>
