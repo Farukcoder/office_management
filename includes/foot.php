@@ -32,5 +32,9 @@
 <script src="../dist/js/demo.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="../dist/js/pages/dashboard.js"></script>
+<!-- parslay-->
+<script src="https://cdn.tutorialjinni.com/parsley.js/2.9.2/parsley.js"></script> 
+<script src="https://cdn.tutorialjinni.com/parsley.js/2.9.2/parsley.min.js"></script>
+
 </body>
 </html>
