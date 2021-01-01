@@ -1,5 +1,7 @@
 <?php
 require_once "../dbcon.php";
+
+
 session_start();
 
 if (!isset($_SESSION['is_logged'])) {

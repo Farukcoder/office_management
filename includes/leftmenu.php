@@ -1,3 +1,8 @@
+<?php
+    $page = explode('/',$_SERVER['PHP_SELF']);
+    $page = end($page);
+?>
+
 <!-- Main Sidebar Container -->
  <aside class="main-sidebar sidebar-dark-primary elevation-4">
      <!-- Brand Logo -->
@@ -24,36 +29,36 @@
                  <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
                  <li class="nav-item">
-                     <a href="deshboard.php" class="nav-link active">
+                     <a href="deshboard.php" class="nav-link <?= ($page=='deshboard.php')? 'active':''; ?>">
                          <i class="nav-icon fas fa-tachometer-alt"></i>
                          <p>
                              Deshboard
                          </p>
                      </a>
                  </li>
-                 <li class="nav-item">
-                     <a href="#" class="nav-link">
+                 <li class="nav-item  <?= ($page == 'employee.php')? 'menu-open':''; ?><?= ($page == 'hr_setting.php')? 'menu-open':''; ?><?= ($page == 'creat_employee.php')? 'menu-open':''; ?>">
+                     <a href="" class="nav-link <?= ($page == 'employee.php')? 'active':''; ?><?= ($page == 'hr_setting.php')? 'active':''; ?><?= ($page == 'creat_employee.php')? 'active':''; ?>">
                          <i class="nav-icon fas fa-chart-line"></i>
                          <p>
                              HR Module
                              <i class="right fas fa-angle-left"></i>
                          </p>
                      </a>
-                     <ul class="nav nav-treeview" style="display: none;">
-                         <li class="nav-item">
-                             <a href="javascript:void(0)" class="nav-link active">
+                     <ul class="nav nav-treeview " style="<?= ($page == 'employee.php')? 'active':''; ?><?= ($page == 'creat_employee.php')? 'active':''; ?> ">
+                         <li class="nav-item  ">
+                             <a href="../admin/employee.php" class="nav-link <?= ($page == 'employee.php')? 'active':''; ?><?= ($page == 'creat_employee.php')? 'active':''; ?>">
                                  <i class="far fa-dot-circle nav-icon"></i>
                                  <p>Employee</p>
                              </a>
                          </li>
                          <li class="nav-item">
-                             <a href="javascript:void(0)" class="nav-link active">
+                             <a href="../admin/hr_setting.php" class="nav-link <?= ($page == 'hr_setting.php')? 'active':''; ?>">
                                  <i class="far fa-dot-circle nav-icon"></i>
                                  <p>HR Setting</p>
                              </a>
                          </li>
                          <li class="nav-item">
-                             <a href="javascript:void(0)" class="nav-link">
+                             <a href="javascript:void(0)" class="nav-link ">
                                  <i class="far fa-dot-circle nav-icon"></i>
                                  <p>Salary Generate</p>
                              </a>

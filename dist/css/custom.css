@@ -1,0 +1,47 @@
+/* all requird css*/
+.required {
+	color: red;
+}
+/* parsley required massage color */
+.parsley-custom-error-message {
+	color: red;
+	list-style: none;
+}
+
+#parsley-id-5 {
+	margin-left: -186px;
+	position: relative;
+	top: 44px;
+	right: 34px;
+}
+#parsley-id-51 {
+	margin-left: -186px;
+	position: relative;
+	top: 44px;
+	right: 34px;
+}
+#parsley-id-53 {
+	margin-left: -186px;
+	position: relative;
+	top: 44px;
+	right: 34px;
+}
+input.parsley-error
+    {
+    	border: 1px solid red !important;
+	}
+select.parsley-error
+    {
+    	border: 1px solid red !important;
+	}
+input file.parsley-error
+    {
+    	border: 1px solid red !important;
+	}
+/* server side required validation	 */
+.error {
+	margin-top: 35px;
+	/* margin-right: none; */
+	margin-left: -280px;
+	color: red;
+}
