@@ -21,7 +21,7 @@
     if (!empty($_FILES['photo']['name'])) {
       if ($ext === 'png' or $ext === 'jpg' or $ext === 'jpeg') {
         if ($fileSize < 1500000) {
-          $photo = rand(11111,99999).".".$ext;
+          $photo = date('d_m_Y_h_i_s').".".$ext;
         } else {
           echo $inputError['photo'] = "your file to be larg";
         }
@@ -166,7 +166,7 @@
       $result= mysqli_query($con,$sql);
 
       if($result){
-        move_uploaded_file($fileTmp, 'image/' . date('d_m_Y_h_i_s').$photo);
+        move_uploaded_file($fileTmp, '../image/employee/'.$photo);
         $success="Your data Save Successfully!!!";
       }else{
         $error="Your data not save";

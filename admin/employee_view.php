@@ -40,7 +40,7 @@ $row = mysqli_fetch_assoc($result);
                             <div class="card-tools">
 
 
-                                <a href="hr/employee/edit_employee/1" class="btn  btn-primary btn-block" style=""> <i class="fa fa-edit"></i> Edit</a>
+                                <a href="employee_edit.php?id=<?= $row['id'];?>" class="btn  btn-primary btn-block" style=""> <i class="fa fa-edit"></i> Edit</a>
 
                             </div>
                             <!-- /.card-tools -->
@@ -59,7 +59,7 @@ $row = mysqli_fetch_assoc($result);
 
                                         </div>
                                         <div class="col-md-4">
-                                            <img src="../image/icon/user.png" class="img-thumbnail elevation-2" alt="Employee Image" style="width: 120px;margin-left: 100px;border: 1px solid gray;border-radius: 5%">
+                                            <img src="<?php echo '../image/employee/'.$row['photo']?>"class="img-thumbnail elevation-2" alt="Employee Image" style="width: 120px;margin-left: 100px;border: 1px solid gray;border-radius: 5%">
                                         </div>
 
                                     </div>

@@ -19,7 +19,7 @@ require_once "../includes/leftmenu.php";
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-            <a href="creat_employee.php">
+            <a href="employee_creat.php">
               <button type="button" class="btn btn-block bg-gradient-primary"><i class="fas fa-user"></i> Add Employee</button>
             </a>
             </ol>
@@ -63,7 +63,7 @@ require_once "../includes/leftmenu.php";
                         echo $x++;
                       ?>
                     </td>
-                    <td><img src="../image/icon/user.png" class="img-circle elevation-2" alt="User Image" style="width: 70px;margin-left: 10px"></td>
+                    <td><img src="<?= '../image/employee/'.$row['photo'];?>" class="img-circle elevation-2" alt="User Image" style="width: 70px;margin-left: 10px"></td>
                     <td><?php echo $row['record_id'];?></td>
                     <td><?= $row['name'];?></td>
                     <td><?= $row['email'];?></td>
@@ -71,7 +71,7 @@ require_once "../includes/leftmenu.php";
                     <td><?= $row['employment_type']?></td>
                     <td>
                     <a class="btn btn-info" href="employee_view.php?id=<?= $row['id'];?>">View</a>
-                      <button type="button" class="btn btn-warning">Edit</button>
+                    <a class="btn btn-warning" href="employee_edit.php?id=<?= $row['id'];?>">Edit</a>
                       <button type="button" class="btn btn-danger">Delete</button>
                     </td>
                   </tr>

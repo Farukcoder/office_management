@@ -36,17 +36,17 @@
                          </p>
                      </a>
                  </li>
-                 <li class="nav-item  <?= ($page == 'employee.php')? 'menu-open':''; ?><?= ($page == 'hr_setting.php')? 'menu-open':''; ?><?= ($page == 'creat_employee.php')? 'menu-open':''; ?>">
-                     <a href="" class="nav-link <?= ($page == 'employee.php')? 'active':''; ?><?= ($page == 'hr_setting.php')? 'active':''; ?><?= ($page == 'creat_employee.php')? 'active':''; ?>">
+                 <li class="nav-item  <?= ($page == 'employee.php')? 'menu-open':''; ?><?= ($page == 'hr_setting.php')? 'menu-open':''; ?><?= ($page == 'employee_creat.php')? 'menu-open':''; ?>">
+                     <a href="" class="nav-link <?= ($page == 'employee.php')? 'active':''; ?><?= ($page == 'hr_setting.php')? 'active':''; ?><?= ($page == 'employee_creat.php')? 'active':''; ?>">
                          <i class="nav-icon fas fa-chart-line"></i>
                          <p>
                              HR Module
                              <i class="right fas fa-angle-left"></i>
                          </p>
                      </a>
-                     <ul class="nav nav-treeview " style="<?= ($page == 'employee.php')? 'active':''; ?><?= ($page == 'creat_employee.php')? 'active':''; ?> ">
+                     <ul class="nav nav-treeview " style="<?= ($page == 'employee.php')? 'active':''; ?><?= ($page == 'employee_creat.php')? 'active':''; ?> ">
                          <li class="nav-item  ">
-                             <a href="../admin/employee.php" class="nav-link <?= ($page == 'employee.php')? 'active':''; ?><?= ($page == 'creat_employee.php')? 'active':''; ?>">
+                             <a href="../admin/employee.php" class="nav-link <?= ($page == 'employee.php')? 'active':''; ?><?= ($page == 'employee_creat.php')? 'active':''; ?>">
                                  <i class="far fa-dot-circle nav-icon"></i>
                                  <p>Employee</p>
                              </a>
